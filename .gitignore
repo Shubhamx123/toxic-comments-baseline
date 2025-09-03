@@ -1,0 +1,39 @@
+# python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.env
+.ipynb_checkpoints/
+
+# data/artifacts
+results/
+artifacts/
+*.joblib
+*.pickle
+*.pkl
+*.pth
+.DS_Store
+
+@"
+# venvs
+.venv/
+tvenv/
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# artifacts
+results/
+artifacts/
+*.joblib
+*.pkl
+*.pth
+
+# OS cruft
+.DS_Store
+Thumbs.db
+"@ | Out-File -Encoding ascii .gitignore
